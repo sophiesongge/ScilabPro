@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="myFunction" extends="struts-default" namespace="/">
+		<action name="FunInputAction" class="com.scilab.action.FunInputAction">
+			<result name="Inputsucc">/inputsucc.jsp</result>
+		</action>
+	</package>
+	<package name="scilabTaskHost" extends="struts-default"
+		namespace="/">
+		<action name="TaskAction" class="com.scilab.action.TaskAction">
+			<result name="success">/ScilabExecute/success.jsp</result>
+			<result name="error">/ScilabExecute/success.jsp</result>
+			<result name="input">/ScilabExecute/ScilabTask.jsp</result>
+		</action>
+		<action name="CheckTask" class="com.scilab.action.CheckTask">
+			<result name="resultSucc">/ScilabExecute/resultSucc.jsp</result>
+			<result name="resultFail">/ScilabExecute/resultFail.jsp</result>
+			<result name="saveSucc"></result>
+			<result name="saveFail"></result>
+		</action>
+	</package>
+	<package name="myRegister" extends="struts-default" namespace="/">
+		<action name="RegisterAction" class="com.scilab.action.RegisterAction">
+			<result name="Registersucc">/registersucc.jsp</result>
+		</action>
+	</package>
+	<package name="myLogin" namespace="/" extends="struts-default">
+		<global-results>
+			<result name="notLogin">/login.jsp</result>
+		</global-results>
+		<action name="LoginAction" 	class="com.scilab.action.LoginAction">
+			<result name="Loginsucc">/loginsucc.jsp</result>
+		</action>
+	</package>
+	<package name="mySignout" extends="struts-default" namespace="/">
+		<action name="SignoutAction" class="com.scilab.action.SignoutAction">
+			<result name="Signoutsucc">/index.jsp</result>
+		</action>
+		<action name="fun_*" method="{1}" class="com.scilab.action.FunctionDetailAction">
+			<result name="funList">/FunctionList.jsp</result>
+			<result name="funDetail">/FunctionDetail.jsp</result>
+			<result name="allfunList">/AllFunctionList.jsp</result>
+		</action>
+	</package>
+	<package name="myTaskDetail" extends="struts-default" namespace="/">
+	    <action name="task_*" method="{1}" class="com.scilab.action.TaskDetailAction">
+			<result name="taskList">/TaskList.jsp</result>
+			<result name="taskDetail">/TaskDetail.jsp</result>
+		</action>
+	</package>
+</struts> 

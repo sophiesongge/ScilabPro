@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+/*Picture Start*/
+img {border:none;}
+.fcnt{
+	display:block;
+	height:172px;
+	width:453px;
+	position:relative;
+	overflow:hidden;
+	right: 78px;
+	top: 5px;
+}
+.fcnt .mimg{ float:left; width:453px; height:172px; overflow:hidden;}
+.fcnt .mimg div{ display:none;}
+.mimg img{ width:453px; height:172px;} 
+.fcnt ul{ float:right; width:152px; height:340px;}
+*html .fcnt ul{ position:absolute; right:0; top:0; width:152px; height:340px;}
+.fcnt li{ display:block; height:82px; width:150px; margin-bottom:5px; cursor:pointer; overflow:hidden;}
+.fcnt li img{ width:150px; height:82px;filter:alpha(opacity=70);  -moz-opacity: 0.7; opacity: 0.7;   }
+.fcnt li.cur img{ width:142px; height:75px; margin:4px 0 0 4px;filter:alpha(opacity=100);  -moz-opacity: 1; opacity: 1;  }
+/*Picture Stop*/
+body{/*全局灰色背景*/
+	background:#999;
+}
+.clear{clear:both;}
+#global{/*全局白色背景*/
+	width:857px;
+	margin:0 auto;
+	background-color:#fff;
+	clear:both;
+}
+#globalIndex{/*全局白色背景*/
+	width:857px;
+	margin:0 auto;
+	background-color:#fff;
+	height:1600px;
+	clear:both;
+}
+#globalIndexChinese{/*全局白色背景*/
+	width:857px;
+	margin:0 auto;
+	background-color:#fff;
+	height:1400px;
+	clear:both;
+}
+#globalRun{/*全局白色背景*/
+	width:857px;
+	margin:0 auto;
+	background-color:#fff;
+	height:1100px;
+	clear:both;
+}
+#globalLinks{/*全局白色背景*/
+	width:857px;
+	margin:0 auto;
+	background-color:#fff;
+	height:900px;
+	clear:both;
+}
+#globalTeam{/*全局白色背景*/
+	width:857px;
+	margin:0 auto;
+	background-color:#fff;
+	height:1000px; 
+	clear:both;
+}
+/*题头开始*/
+#BlueTopImage {/*题头大层*/
+	height: 188px;
+	width: 857px;
+	background-image: url(../images/BlueTopImage.jpg);
+	positoin:relative;
+}
+#LoginAndRegister{/*子层用于给登陆注册钮占位的大长方形，与Flash Div、Navigation平级*/
+	height: 133px;
+	width: 590px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #FFF;
+	float:left;
+	postion:absolute;
+	left:0px;
+	top:0px;
+}
+.loginAction {/*登陆注册层里的链接*/
+	font-size: 14px;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.registerAction {/*登陆注册层里链接*/
+	font-size: 14px;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+#LoginSucc{/*登陆注册层里欢迎*/
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCC;
+	float:left;
+}
+#signoutDiv{/*登陆注册层里退出层*/
+	width:100px;
+	float:left;
+}
+.SignOutTop{/*退出层里退出字体*/
+	font-size: 14px;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCC;
+}
+#Flash {
+	height:134px;
+	width:250px;
+	float:left;
+	position:relative;
+	top:0px;
+	right:0;
+}
+#navigation    {
+	height: 40px;
+	width: 700px;
+	margin-left: 48px;
+	float:left;
+}
+/*题头结束*/
+/*第二部分开始*/
+#PictureChange {/*第二部分大层，层内子层有多层叠加*/
+	height: 177px;
+	width: 857px;
+	position: relative;
+}
+#BandPictureLeft {/*第二部分子层蓝底与大鸟*/
+	position: absolute;
+	height: 172px;
+	width: 243px;
+	visibility: visible;
+	z-index: 5;
+	top: 5px;
+	left: 78px;
+	overflow: visible;
+	float: none;
+}
+#BigText{/*白道里每个页面不同的大字*/
+	position:absolute;
+	height: 60px;
+	width: 282px;
+	visibility: visible;
+	z-index: 10;
+	top: 42px;
+	left: 330px;
+	overflow: visible;
+	float: none;
+}
+#Bandpicture    {/*图片轮换*/
+	width: 453px;
+	height: 172px;
+	float: right;
+	visibility: visible;
+	overflow: visible;
+	z-index: -5;
+}
+/*第二部分结束*/
+#loginDiv{
+	padding-top: 80px;
+}
+#LeftDiv {
+	float: left;
+	height: 400px;
+	width: 266px;
+	overflow: hidden;
+	padding-top: 8px;
+	position:relative;
+	padding-left: 60px;
+}
+#ExplicationPossible{
+	float: left;
+	width: 240px;
+	overflow: hidden;
+	margin-top: -220px;
+	margin-left: 80px;
+}
+#LeftOperation {
+	width:231px;
+	position:absolute;
+	margin-left:31px;
+	z-index: 25;
+}
+#LeftFunction {
+	width:231px;
+	position:absolute;
+	margin-top:66px;
+	z-index: 20;
+}
+#LeftShow {
+	width:231px;
+	position:absolute;
+	margin-top:132px;
+	margin-left:31px;
+	z-index: 15;
+}
+#LeftTeam {
+	width:231px;
+	position:absolute;
+	margin-top:198px;
+	z-index: 10;
+}
+#LeftLinks {
+	width:231px;
+	position:absolute;
+	margin-top:264px;
+	margin-left:31px;
+	z-index: 5;
+}
+#LeftSignout {
+	width:213px;
+	position:absolute;
+	margin-left:31px;
+	z-index: 25;
+}
+#LeftRunScilabOnline {
+	width:231px;
+	position:absolute;
+	margin-top:66px;
+	z-index: 20;
+}
+#LeftViewMyTaskList {
+	width:231px;
+	position:absolute;
+	margin-top:132px;
+	margin-left:31px;
+	z-index: 15;
+}
+#LeftViewMyFunctions {
+	width:231px;
+	position:absolute;
+	margin-top:198px;
+	z-index: 10;
+}
+#LeftShareMyFunctions {
+	width:231px;
+	position:absolute;
+	margin-top:264px;
+	margin-left:31px;
+	z-index: 5;
+}
+
+.Theme {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	color: #333;
+}
+.Big {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	color: #009;
+}
+#Language {
+	margin:10px 0;
+	font-size:15px;
+	font-weight:bold;
+	width:200px;
+	float:right;
+}
+#Language a {
+	text-decoration:none;
+}
+#Language a:hover {
+	text-decoration:underline;
+}
+#Chinese {
+	line-height:15px;
+	float:left;
+}
+#English {
+	line-height:15px;
+	margin-left:20px;
+	float:right;
+}
+#RefreshDivChinese{
+	float: left;
+	height: 900px;
+	width:450px;
+	font-size: 14px;
+}
+#RefreshDivLinks {
+	float: left;
+	height: 400px;
+	width:450px;
+	font-size: 14px;
+}
+#RefreshDiv {
+	float: left;
+	height: 1100px;
+	width:450px;
+	font-size: 14px;
+}
+#RefreshDivRun {
+	float: left;
+	height: 560px;
+	width:450px;
+	font-size: 14px;
+}
+#RefreshDiv #SharePage {
+	height: 580px;
+	width: 450px;
+	background-color: #369;
+	border: 1px ridge #09F;
+	float: left;
+	margin-top: 26px;
+	color: #FFF;
+}
+#RefreshDiv #SharePage #ShareContent {
+	margin-top: -30px;
+}
+#Explication {
+	width:240px;
+	float: right;
+	height: 200px;
+	background-color: #69F;
+	border: 1px solid #B8D4E8;
+}
+#Welcome {
+	height: 30px;
+	width: 240px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bolder;
+	color: #009;
+	background-image: url(images/loginTop.jpg);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+}
+#aboutUs {
+	font-size: 11px;
+	font-family: Verdana, Geneva, sans-serif;
+	width:686px;
+	float:left;
+	margin-left:30px;
+}
+#footer{
+	height: 95px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #03C;
+}
+#EcpknLogo {
+	margin-top: -80px;
+	float: left;
+	z-index: -2;
+	margin-left: 770px;
+}
+#TabbedPanels1 {
+	background-image: url(../images/BookMark.png);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 600px;
+}
+#TeamTab1 {
+	text-align: center;
+	width: 190px;
+	font-size: 0.5em;
+	font-family: sans-serif;
+	height: 50px;
+}
+#TeamTab2 {
+	padding-left: 20px;
+	text-align: center;
+	font-size: 0.5em;
+	height: 50px;
+}
+#TeamTab3 {
+	text-align: center;
+	font-size: 0.5em;
+	height: 50px;
+}
+#TeamTab4 {
+	width: 200px;
+	padding-top: 0px;
+	font-size: 0.5em;
+	height: 50px;
+}
+#TeamTab5 {
+	width: 200px;
+	padding-left: 0px;
+	font-size: 0.5em;
+	height: 50px;
+}
+#TeamTab6 {
+	width: 200px;
+	padding-top: 0px;
+	font-size: 0.5em;
+	height: 48px;
+}
+#TeamTab8 {
+	width: 200px;
+	padding-top: 0px;
+	font-size: 0.5em;
+	height: 50px;
+}
+#TeamTab7 {
+	padding-left: 0px;
+	font-size: 0.5em;
+	height: 45px;
+}
+#TeamContent1 {
+	background-image: url(../images/Team1.jpg);
+	background-repeat: no-repeat;
+}
+#TeamContent2 {
+	background-image: url(../images/Team2.jpg);
+	background-repeat: no-repeat;
+}
+#TeamContent3 {
+	background-image: url(../images/Team3.jpg);
+	background-repeat: no-repeat;
+}
+#TeamContent4 {
+	background-image: url(../images/Team4.jpg);
+	background-repeat: no-repeat;
+}
+#TeamContent6 {
+	background-image: url(../images/Team6.jpg);
+	background-repeat: no-repeat;
+}
+#TeamContent5 {
+	background-image: url(../images/Team5.jpg);
+	background-repeat: no-repeat;
+}
+
+#TeamContent7 {
+	background-image: url(../images/Team7.jpg);
+	background-repeat: no-repeat;
+}
+#TeamContent8 {
+	background-image: url(../images/Team8.jpg);
+	background-repeat: no-repeat;
+}
+#Third {
+	height: 1200px;
+	width: 857px;
+}
+#PresentationForProgram {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: 300;
+	height:1000px;
+}
+#art{
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:2em;
+}

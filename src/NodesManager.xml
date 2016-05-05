@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DistributionConfiguration>
+<NodesInfo>
+	<node1 ID="0" IPAddress="192.168.2.1" HostIP="192.168.2.55" NodeName="服务器0" CpuCoreNum="2" MainFrequence="4"></node1>
+	
+	
+	</NodesInfo>
+<HostIP IPAddress="192.168.2.55"></HostIP></DistributionConfiguration>

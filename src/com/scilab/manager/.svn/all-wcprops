@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/153/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager
+END
+SocketServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/106/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/SocketServer.java
+END
+ScilabTaskHostService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/106/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/ScilabTaskHostService.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/136/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/Task.java
+END
+NodesManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/153/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/NodesManager.java
+END
+SciNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/153/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/SciNode.java
+END
+TaskDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/106/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/TaskDispatcher.java
+END
+ScilabTaskHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/106/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/ScilabTaskHost.java
+END
+ServerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/115/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/ServerThread.java
+END
+Scheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/153/trunk/%20scilab%20--username%20TonyWangadong/ScilabPro/src/com/scilab/manager/Scheduler.java
+END
