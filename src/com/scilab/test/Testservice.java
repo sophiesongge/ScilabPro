@@ -7,7 +7,7 @@ import org.apache.axis2.AxisFault;
 import client.ExceptionException;
 import client.ExecuteServiceStub;
 
-public class Testservice {
+public class Testservice { 
 public static void main(String[] args) throws RemoteException, ExceptionException {
 	ExecuteServiceStub stub = new ExecuteServiceStub();
 	ExecuteServiceStub.ExecuteCodes host = new ExecuteServiceStub.ExecuteCodes();
